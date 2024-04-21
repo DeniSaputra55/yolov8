@@ -1,0 +1,13 @@
+train: F:\Semester8\trash.v1i.yolov8\train\images
+val: F:\Semester8\trash.v1i.yolov8\valid\images
+test: F:\Semester8\trash.v1i.yolov8\test\images
+
+nc: 1
+names: ['trash']
+
+roboflow:
+  workspace: projectfinal-drswd
+  project: trash-0irxj
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/projectfinal-drswd/trash-0irxj/dataset/1
